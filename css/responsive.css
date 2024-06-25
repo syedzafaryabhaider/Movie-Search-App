@@ -1,0 +1,66 @@
+@media screen and (max-width: 460px) {
+    header {
+        flex-direction: column;
+        justify-content: center;
+        gap: 15px;
+    }
+
+    header h2 {
+        text-align: center;
+        margin: 0;
+    }
+
+    header .search {
+        width: 100%;
+        margin: 0;
+    }
+
+    .dropdown-menu {
+        top: 22%;
+    }
+
+    .movie {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 1170px) {
+
+    header .nav-links {
+        display: none;
+    }
+
+    header .hamburger {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 766px) {
+    
+    .movie-details {
+        height: 60vh;
+    }
+
+    .movie-details-content {
+        flex-direction: column;
+        position: relative;
+        top: 70%;
+        margin: 0 10px;
+    }
+
+    .movie-details-content > img {
+        margin: 0;
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 338px) {
+    
+    .movie-details {
+        transform: scale(0.6);
+    }
+
+    .movie-details-content {
+        top: 35%;
+    }
+}
